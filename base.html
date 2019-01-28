@@ -156,7 +156,7 @@
                 layer.bindPopup(popupContentL);
             },
         }).addTo(map);*/
-                        /*var comarcasPoligonoStylePop = new L.GeoJSON.AJAX('datos/comarcas.geojson', {
+                        var comarcasPoligonoStylePop = new L.GeoJSON.AJAX('datos/comarcas.geojson', {
                             style: function (feature) {
                                 var colorComarca = "#fab81e";
                                 //console.info(feature);
@@ -180,11 +180,11 @@
                                     layer.bindPopup(popupContentPol);
                                 },
 
-                        }).addTo(map);*/
-                        L.control.mousePosition({
-                            numDigits: 7
                         }).addTo(map);
-                        var comarcasPoligonoStylePop = new L.GeoJSON.AJAX('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_europe.geojson', {
+                        L.control.mousePosition({
+                            numDigits: 5
+                        }).addTo(map);
+                        /*var comarcasPoligonoStylePop = new L.GeoJSON.AJAX('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_europe.geojson', {
                             style: function (feature) {
                                 var colorComarca = "#fab81e";
                                 //console.info(feature);
@@ -208,7 +208,7 @@
                                     layer.bindPopup(popupContentPol);
                                 },
 
-                        }).addTo(map);
+                        }).addTo(map);*/
                         
 
                         hibrid.addTo(map);
