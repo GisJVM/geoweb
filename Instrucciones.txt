@@ -1,0 +1,9 @@
+dar espacio en clonar para dar el nombre al clonado
+git  clone url (nombre)
+
+
+luego en dentro d ela carpeta darl git pull
+
+la primera vez se cambia el brach //las branch sale en la pagian (al costado e master)
+
+git chexout gh-pages
