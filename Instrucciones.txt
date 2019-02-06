@@ -7,3 +7,22 @@ luego en dentro d ela carpeta darl git pull
 la primera vez se cambia el brach //las branch sale en la pagian (al costado e master)
 
 git chexout gh-pages
+
+
+
+
+
+
+
+
+luego de crear el repositorio se clona
+se debe poner un index.html
+
+el readme debe poner corta explicacion
+
+
+
+aplicacion nueva a partir de algo nuevo
+
+doce d ela noche de la 4
+generar u nnuevo estilo en mapbox
